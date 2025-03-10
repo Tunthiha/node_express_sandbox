@@ -28,7 +28,7 @@ If Docker Engine Stop Please run wsl --update(first Time users)
 
 * git clone https://github.com/Tunthiha/node_express_sandbox.git
 * cd node_express_sandbox
-* run npm install
+* run `npm install`
 
 
 
