@@ -1,0 +1,4 @@
+{"error":"invalid input syntax for type integer: \"Herradura Reposado Tequila\"","level":"error","message":"Database insertion error","timestamp":"2025-03-10T15:10:11.851Z"}
+{"error":"invalid input syntax for type integer: \"Herradura Reposado Tequila\"","level":"error","message":"Database insertion error","timestamp":"2025-03-10T15:13:13.800Z"}
+{"error":"invalid input syntax for type integer: \"Herradura Reposado Tequila\"","level":"error","message":"Error inserting row into database","row":{"Brand":"Herradura Reposado Tequila","Classification":30,"Description":"38.99","Price":750,"PurchasePrice":1128,"Size":"750","VendorName":null,"VendorNumber":null,"Volume":"1"},"timestamp":"2025-03-10T15:15:47.192Z"}
+{"error":"Error inserting row into database: invalid input syntax for type integer: \"Herradura Reposado Tequila\"","level":"error","message":"Database insertion error","timestamp":"2025-03-10T15:15:47.195Z"}
