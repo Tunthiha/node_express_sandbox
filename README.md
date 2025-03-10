@@ -22,6 +22,8 @@ This is a **Dockerized Node.js API** for **uploading CSV files**, **storing data
 If Docker is **not installed**, download it from:
 🔗 [**Docker Download Page**](https://www.docker.com/get-started/)
 
+If Docker Engine Stop Please run wsl --update(first Time users)
+
 ## 2️⃣ Clone the Repository
 
 git clone [<node-js-project>](https://github.com/Tunthiha/node_express_sandbox.git)

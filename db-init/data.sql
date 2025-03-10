@@ -1,3 +1,5 @@
+\c express-csv;
+
 CREATE TABLE IF NOT EXISTS purchase_prices (
     id SERIAL PRIMARY KEY,
     Brand INT NULL,
