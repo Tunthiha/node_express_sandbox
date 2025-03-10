@@ -47,7 +47,7 @@ PORT=5002
 | DB_DATABASE   | express-csv     |
 | DB_DBPORT     | 5432            |
 | DB_PASSWORD   | password        |
-| PORT          | 5002            |
+| DB_PORT       | 5002            |
 
 
 
@@ -69,6 +69,7 @@ DB connection status - http://localhost:5002/
 | GET    | `/api/data`        | Get all stored records              |
 | GET    | `/api/data/:id`    | Get a specific record               |
 
+* Key = file for 2 POST methods
 
 For Example : http://localhost:5002/api/data
 
