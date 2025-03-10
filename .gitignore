@@ -1,0 +1,32 @@
+# 📌 Node.js Dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# 📌 Logs
+logs/
+*.log
+debug.log
+error.log
+winston.log
+
+# 📌 Environment Variables
+.env
+.env.local
+.env.*.local
+
+# 📌 Docker
+docker-compose.override.yml
+docker-compose.override.*
+*.dockerfile
+*.tar
+docker-entrypoint-initdb.d/
+
+
+
+# 📌 Jest & Testing Files
+coverage/
+jest-cache/
+jest-output/
+.vscode-test/
+

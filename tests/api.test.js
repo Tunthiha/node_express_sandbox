@@ -6,9 +6,6 @@ jest.mock("../src/models/dataModel.js");
 
 describe("Data Controller Unit Tests", () => {
   
-  /**
-   * 📌 Test `getAllData`
-   */
   it("should return all data", async () => {
     const mockData = [
       { id: 1, Brand: "Nike", Description: "Shoes", Price: 50.0 },
@@ -30,9 +27,7 @@ describe("Data Controller Unit Tests", () => {
     });
   });
 
-  /**
-   * 📌 Test `getDataById`
-   */
+
   it("should return data by ID", async () => {
     const mockData = [{ id: 1, Brand: "Nike", Description: "Shoes", Price: 50.0 }];
     getDataByIdFromDB.mockResolvedValue(mockData);
