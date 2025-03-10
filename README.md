@@ -36,11 +36,17 @@ run npm install
 PORT=5002
 
 # PostgreSQL Database Configuration
-DB_USER=postgres
-DB_HOST=db
-DB_DATABASE=express-csv
-DB_DBPORT=5432
-DB_PASSWORD=password
+## PostgreSQL Database Configuration
+
+| Key           | Value           |
+|---------------|-----------------|
+| DB_USER       | postgres        |
+| DB_HOST       | db              |
+| DB_DATABASE   | express-csv     |
+| DB_DBPORT     | 5432            |
+| DB_PASSWORD   | password        |
+| PORT          | 5002            |
+
 
 
 ## 4 Run the Project with Docker
