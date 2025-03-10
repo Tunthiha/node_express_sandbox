@@ -14,7 +14,7 @@ winston.log
 .env
 .env.local
 .env.*.local
-/uploads
+
 
 # 📌 Docker
 docker-compose.override.yml
