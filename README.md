@@ -26,30 +26,41 @@ If Docker Engine Stop Please run wsl --update(first Time users)
 
 ## 2️⃣ Clone the Repository
 
-git clone [<node-js-project>](https://github.com/Tunthiha/node_express_sandbox.git)
+git clone https://github.com/Tunthiha/node_express_sandbox.git
 cd node_express_sandbox
+run npm install
 
 ## 3️⃣ Set Up Environment Variables
 
-
+# Server Configuration
 PORT=5002
+
+# PostgreSQL Database Configuration
 DB_USER=postgres
 DB_HOST=db
 DB_DATABASE=express-csv
 DB_DBPORT=5432
 DB_PASSWORD=password
 
+
 ## 4 Run the Project with Docker
 
-docker-compose up --build -d
+docker-compose up --build 
 
 
 ## 5 API Routes & Endpoints
 
-POST | /api/upload_data | Upload CSV & preview first 10 rows
-POST | /api/store_data  | Store CSV data in database
-GET  | /api/data        | Get all stored records
-GET  | /api/data/:id    | Get a specific record
+DB connection status - http://localhost:5002/
+
+## API Endpoints
+
+| Method | Endpoint           | Description                          |
+|--------|--------------------|--------------------------------------|
+| POST   | `/api/upload_data` | Upload CSV & preview first 10 rows  |
+| POST   | `/api/store_data`  | Store CSV data in database          |
+| GET    | `/api/data`        | Get all stored records              |
+| GET    | `/api/data/:id`    | Get a specific record               |
+
 
 For Example : http://localhost:5002/api/data
 
