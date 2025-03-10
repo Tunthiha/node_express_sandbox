@@ -1,8 +1,10 @@
+version: "3.8"
+
 services:
   api:
     build: .
     ports:
-      - "5003:5002"
+      - "5002:5002"
     depends_on:
       - db
     environment:
@@ -13,7 +15,6 @@ services:
       DB_DATABASE: express-csv
       DB_DBPORT: 5432
 
-
   db:
     image: postgres:latest
     restart: always
@@ -23,11 +24,10 @@ services:
       POSTGRES_PASSWORD: password
       POSTGRES_DB: express-csv
     ports:
-      - "5433:5432"  # Map host port 5433 to container port 5432
+      - "5433:5432"  # Maps host port 5433 to container port 5432
     volumes:
       - pg_data:/var/lib/postgresql/data
-
-
+      - ./db-init/data.sql:/docker-entrypoint-initdb.d/data.sql  # Runs the SQL script on first startup
 
 volumes:
   pg_data:
