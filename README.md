@@ -73,4 +73,8 @@ DB connection status - http://localhost:5002/
 
 For Example : http://localhost:5002/api/data
 
+## 6 API Testing
+
+`npm test`
+
 
